@@ -5,7 +5,7 @@ const schema = require('./schema')
 const users = [{id: 1, username: "Jhon", age: 25}]
 
 const app = express()
-app.use(cors())
+app.use(cors()) 
 
 const createUser = (input) => {
     const id = Date.now()
